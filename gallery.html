@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery | Simple Outfit Inspiration</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Simple Outfit Inspiration</h1>
+        <p>Browse outfit ideas by style.</p>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gallery.html" class="active">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Gallery Section -->
+    <main>
+
+        <section class="gallery-title">
+            <h2>Outfit Gallery</h2>
+            <p>Click a button below to filter the outfits.</p>
+        </section>
+
+        <!-- Filter Buttons -->
+        <div class="buttons">
+            <button onclick="filterSelection('all')">All</button>
+            <button onclick="filterSelection('casual')">Casual</button>
+            <button onclick="filterSelection('formal')">Formal</button>
+            <button onclick="filterSelection('street')">Streetwear</button>
+        </div>
+
+        <!-- Gallery -->
+        <section class="gallery">
+
+            <div class="image casual">
+                <img src="images/casual1.jpeg" alt="Casual Outfit">
+                <h3>Casual Outfit 1</h3>
+            </div>
+
+            <div class="image casual">
+                <img src="images/casual2.jpeg" alt="Casual Outfit">
+                <h3>Casual Outfit 2</h3>
+            </div>
+
+            <div class="image formal">
+                <img src="images/formal1.jpeg" alt="Formal Outfit">
+                <h3>Formal Outfit 1</h3>
+            </div>
+
+            <div class="image formal">
+                <img src="images/formal2.jpeg" alt="Formal Outfit">
+                <h3>Formal Outfit 2</h3>
+            </div>
+
+            <div class="image street">
+                <img src="images/streetwear1.jpeg" alt="Streetwear Outfit">
+                <h3>Streetwear Outfit 1</h3>
+            </div>
+
+            <div class="image street">
+                <img src="images/streetwear2.jpeg" alt="Streetwear Outfit">
+                <h3>Streetwear Outfit 2</h3>
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Simple Outfit Inspiration | Created by Alyssa</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
